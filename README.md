@@ -13,6 +13,10 @@ pip install -r requirements.txt
 
 ## Use
 
+1. n number of top cities by population can be initially scraped from the table on:
+https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population
+
+New information with href(link to an element) on individual wiki pages can be added as a new column
 
 Just import the module and call the `scrape` function. Pass it the full URL of a Wikipedia article, and a simple string (no special characters or filetypes) for the output name. The output will all be written to the `output_name` folder, with files named `output_name.csv`, `output_name_1.csv`, etc.
 
