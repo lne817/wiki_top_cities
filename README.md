@@ -1,6 +1,6 @@
 # wiki_top_cities
 
-Scrape the tables from a Wikipedia article into CSV files.
+Scrape the tables from Wikipedia pages into CSV files.
 
 ## Installation
 
@@ -15,10 +15,13 @@ pip install -r requirements.txt
 
 1. n number of top cities by population can be initially scraped from the table on:
 https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population
+(example) `top_cities.csv`
 
-New information with href(link to an element) on individual wiki pages can be added as a new column
+2. New information using html tags on individual Wikipedia can be scraped, if exists, and added as a new column
+(example) `top_cities_website.csv`
 
-Just import the module and call the `scrape` function. Pass it the full URL of a Wikipedia article, and a simple string (no special characters or filetypes) for the output name. The output will all be written to the `output_name` folder, with files named `output_name.csv`, `output_name_1.csv`, etc.
+3. New information with href(link to an element) on individual Wikipedia pages can be scraped, if exists, and added as a new column
+(example) `top_cities_website_time_zone.csv`, etc.
 
 
 ## Note
