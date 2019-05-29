@@ -4,7 +4,7 @@ Scrape the tables from Wikipedia pages into CSV files.
 
 ## Installation
 
-Implemented in [Python 3][python] with [Beautiful Soup][beautiful-soup], [requests][requests], [`lxml`][lxml] parser.
+Implemented in `Python3` with `Beautiful Soup`, `requests`, `lxml` parser.
 
 ```
 # Install requirements from pip
